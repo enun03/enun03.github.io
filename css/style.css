@@ -1,0 +1,15 @@
+body {
+	background-color: #f7f7f7;
+}
+.page-header {
+    border-bottom: 1px solid rgba(22, 147, 201,0.3);
+}
+.container {
+	max-width: 500px;
+}
+.content-body {
+	box-shadow: -10px 0px 15px -10px rgba(0,23,40,0.15);
+}
+.list-links {
+	margin-top: .5em;
+}
