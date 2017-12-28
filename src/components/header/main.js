@@ -1,3 +1,4 @@
+//Header Markup
 var header = document.querySelector('.page-header');
 header.innerHTML = `
     <!-- Parallax Header -->
@@ -11,8 +12,9 @@ header.innerHTML = `
     </div><!--. parallax end -->
 `;
 
-var style = document.head;
-style.innerHTML += `
+//CSS Custom Style
+var head = document.head;
+head.innerHTML += `
     <style>
         body {
           background-color: #fcfcfc;

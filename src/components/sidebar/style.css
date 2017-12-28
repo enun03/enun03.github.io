@@ -1,0 +1,10 @@
+#sidebar {
+  background-color: #e7e7e7;
+  -webkit-box-shadow: inset -2px 0px 8px 1px rgba(199,195,199,1);
+  -moz-box-shadow: inset -2px 0px 8px 1px rgba(199,195,199,1);
+  box-shadow: inset -2px 0px 8px 1px rgba(199,195,199,1);
+}
+#sidebar .card {
+  margin-top: 1em; 
+  margin-bottom: 1em;
+}

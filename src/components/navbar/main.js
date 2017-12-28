@@ -12,7 +12,7 @@ nav.innerHTML = `
             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="projects.html">Projects</a>
+            <a class="nav-link" href="demos.html">Demos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Reference</a>
