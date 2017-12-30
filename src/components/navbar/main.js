@@ -2,7 +2,7 @@ var navOutput = document.querySelector('#navbar');
 
 navOutput.innerHTML = `
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="index.html"><i class="fab fa-empire"></i> ENUN03</a>
+      <a class="navbar-brand" href="index.html"><i class="fas fa-code" style="color: #555;"></i> Dev Portfolio</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -22,6 +22,7 @@ navOutput.innerHTML = `
     </nav>
 `;
 
+//Navbar dynamic affix
 window.addEventListener('scroll', ev => {
   var nav = document.querySelector('.navbar');
   if (window.scrollY > navOutput.offsetTop){
