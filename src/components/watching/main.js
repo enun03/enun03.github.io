@@ -29,7 +29,7 @@ var Watching = {
     Watching.resData.forEach( (w, i) => {
       if(isEven(i) === true) output += `<div class="row">`;
       output += `
-        <div class="col-md-6">
+        <div class="col-sm-6">
           <div class="card" style="margin: 0.2em;">
             <div class="card-body">
               <a href="${w.html_url}"><p>${w.name}</p></a>
@@ -38,11 +38,10 @@ var Watching = {
           </div>
         </div>
       `;
-      debugger;
+      
       if(i !== 0 && isOdd(i) === true) output += `</div>`;
     });
     output += `</div>`;
-    console.log(output);
     this.watchingDOM.innerHTML += output;
   }
 }
