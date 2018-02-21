@@ -29,7 +29,7 @@ var Sidebar = {
         <h5><center>${Sidebar.gitUser.name}</center></h5>
         <ul class="list-group">
         <li class="list-group-item"><i class="fas fa-map-marker-alt"></i> ${Sidebar.gitUser.location}, US</li>
-        <li class="list-group-item"><i class="fas fa-paperclip"></i> <a href="https://drive.google.com/open?id=0Bw4AXgA6dkEoX1BydEpaRmNKakk" target="_blank">My Resume</a></li>          
+        <li class="list-group-item"><i class="fas fa-paperclip"></i> <a href="https://drive.google.com/open?id=1ZDOkZqdFvMoP3aqCfcEWscTKDJ4l0cQ9" target="_blank">My Resume</a></li>          
         </ul>
       </div>
 
