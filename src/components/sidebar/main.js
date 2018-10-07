@@ -36,7 +36,7 @@ var Sidebar = {
       <div class="card" style="display: box; margin: 1.2em;">
           <div class="card-header">Short Bio:</div>
           <div class="card-body">
-           <p>I'm a full stack developer with 4 years of experience currently working for DXC.Technology as a programmer analyst. I'm really into JavaScript and some of my favorite technologies are Node.JS, VUE JS and React JS. Also, I really like to collaborate in public GitHub reposotories and I'm currently looking into the MERN stack and GoLang.</p>
+           <p>I'm a full stack developer with 4 years of experience currently working for DXC.Technology as a programmer analyst. I'm really into JavaScript and some of my favorite technologies are Node.JS, VUE JS and React JS. Also, I really like to collaborate in public GitHub repositories and I'm currently looking into the MERN stack and GoLang.</p>
           </div>
         </div>
       </div>
