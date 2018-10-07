@@ -1,9 +1,9 @@
-window.onload = function() {
+var load = function() {
   addScript('/src/components/header/main.js');
   addScript('/src/components/navbar/main.js');
   addScript('/src/components/sidebar/main.js');
   addScript('/src/components/watching/main.js');  
-}
+}()
 
 function addScript(src){
   var head = document.head;

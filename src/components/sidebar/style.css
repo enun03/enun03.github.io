@@ -8,3 +8,11 @@
   margin-top: 1em; 
   margin-bottom: 1em;
 }
+
+#LinkedInBadge {
+  background-color: #fff;
+  margin-bottom: 1rem;
+}
+.LI-badge-container.horizontal.light {
+  width: 100% !important;
+}
