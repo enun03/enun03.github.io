@@ -3,9 +3,6 @@ var load = function() {
   addScript('/src/components/navbar/main.js');
   addScript('/src/components/sidebar/main.js');
   addScript('/src/components/watching/main.js');  
-  setTimeout(() => {
-    addScript('https://platform.linkedin.com/badges/js/profile.js');
-  }, 100);
 }()
 
 function addScript(src){
